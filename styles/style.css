@@ -316,6 +316,33 @@ body {
     font-family: 'notoNoto Sans KR', 'Malgun Gothic', sans-serif;
 }
 
+
+@media (max-width: 960px) {
+    html {
+        font-size: 14px;
+    }
+
+    .header {
+        margin-bottom: 7rem;
+    }
+    .calculator-cta-btn {
+        width: 24rem;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 14px;
+    }
+
+    .header {
+        margin-bottom: 7rem;
+    }
+    .calculator-cta-btn {
+        width: 24rem;
+    }
+}
+
 @media (max-width: 480px) {
     html {
         font-size: 10px;

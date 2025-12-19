@@ -117,7 +117,7 @@ flowchart TD
     header --> main
     main --> section_law[section : law-description]
     main --> section_calc[section : calculator]
-    footer
+    main --> footer
 ``` 
 
 ### 2. 반응형 레이아웃 분기

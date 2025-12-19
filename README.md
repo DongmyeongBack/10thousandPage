@@ -122,6 +122,16 @@ HTML과 CSS만을 사용하여 **1만 시간의 법칙(The 10,000-Hour Rule)**�
 
 * JavaScript를 활용한 동적 인터랙션 추가
 * 다크 모드 및 사용자 환경 설정 기능 확장
+* 헤더 로고를 만들 때 `.header-logo::before` 와 `.header-logo::after`에 `background-image`를 사용했는데 이보다는 html에 img태그를 사용하는 것이 더 적절해 보임
+```css
+.header-logo::before {
+    background-image: url('../images/clock.png');
+}
+
+.header-logo::after {
+    background-image: url('../images/title.png');
+}
+```
 
 ---
 

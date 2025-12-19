@@ -119,9 +119,11 @@ flowchart TD
     main --> footer
 
     subgraph main["main"]
+        direction LR
         section_law[section : law-description]
         section_calc[section : calculator]
     end
+
 ``` 
 
 ### 2. 반응형 레이아웃 분기

@@ -115,9 +115,12 @@ HTML과 CSS만을 사용하여 **1만 시간의 법칙(The 10,000-Hour Rule)**�
 ```mermaid
 flowchart TD
     header --> main
-    main --> section_law[section : law-description]
-    main --> section_calc[section : calculator]
     main --> footer
+
+    subgraph main["main"]
+        section_law[section : law-description]
+        section_calc[section : calculator]
+    end
 ``` 
 
 ### 2. 반응형 레이아웃 분기

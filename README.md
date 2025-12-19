@@ -6,6 +6,12 @@ HTML과 CSS만을 사용하여 **1만 시간의 법칙(The 10,000-Hour Rule)**�
 * GitHub Pages 배포 ([1만 시간의 법칙](https://dongmyeongback.github.io/10thousandPage/))
 * Desktop / Tablet / Mobile 전 해상도 대응
 
+## 미리보기
+
+| Desktop | Mobile |
+|--------|--------|
+| ![](./images/desktop.png) | ![](./images/mobile.png) |
+
 ---
 
 ## 프로젝트 개요
@@ -106,35 +112,6 @@ HTML과 CSS만을 사용하여 **1만 시간의 법칙(The 10,000-Hour Rule)**�
 * 텍스트 중심 페이지에서의 레이아웃 구성 방법
 * Media Query를 활용한 단계적 반응형 설계
 * CSS를 활용한 구조적 스타일 관리의 필요성
-
----
-
-## 구조 다이어그램 (Mermaid)
-
-### 1. 전체 페이지 흐름
-
-```mermaid
-flowchart TD
-    header --> main
-    main --> footer
-
-    subgraph main["main"]
-        direction LR
-        section_law[section : law-description]
-        section_calc[section : calculator]
-    end
-
-``` 
-
-### 2. 반응형 레이아웃 분기
-
-```mermaid
-flowchart LR
-    Viewport{화면 크기}
-    Viewport -->|≥1200px| Desktop[데스크톱 레이아웃]
-    Viewport -->|768~1024px| Tablet[태블릿 레이아웃]
-    Viewport -->|≤480px| Mobile[모바일 레이아웃]
-```
 
 ---
 

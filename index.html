@@ -31,12 +31,10 @@
 
                 <div class="calculator-field">
                     <span class="calculator-text">나는</span>
-                    <label for="experfield" class="sr-only">목표 분야 입력</label>
-                    <input type="text" id="experfield" class="calculator-input" placeholder="예)프로그래밍"/>
+                    <input type="text" id="experfield" class="calculator-input" aria-label="목표 분야 입력" placeholder="예)프로그래밍"/>
                     <span class="calculator-text">전문가가 될 것이다.</span>
                     <span class="calculator-text">그래서 앞으로 매일 하루에</span>
-                    <label for="dailyhours" class="sr-only">하루 훈련 시간 입력</label>
-                    <input type="text" id="dailyhours" class="calculator-input" placeholder="예)5시간"/>
+                    <input type="text" id="dailyhours" class="calculator-input" aria-label="하루 훈련 시간 입력" placeholder="예)5시간"/>
                     <span class="calculator-text">시간씩 훈련할 것이다.</span>
                 </div>
 
@@ -72,7 +70,7 @@
     
 
     
-    <div class="modal">
+    <dialog class="modal">
         <div class="modal-content">
             <h2 class="modal-title">화이팅!!<br>당신의 꿈을 응원합니다!</h2>
             <div class="modal-image" role="img" aria-label="응원하는 라이캣"></div>
@@ -80,6 +78,6 @@
             종료하고 진짜<br>훈련하러 가기 GO!GO!
             </button>
         </div>
-    </div>
+    </dialog>
   </body>
 </html>

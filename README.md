@@ -10,7 +10,7 @@ HTML과 CSS만을 사용하여 **1만 시간의 법칙(The 10,000-Hour Rule)**�
 
 | Desktop | Mobile |
 |--------|--------|
-| ![](./images/desktop.png) | ![](./images/mobile.png) |
+| ![](./images/desktop.png) | ![](./images/mobile.jpg) |
 
 ---
 

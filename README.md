@@ -65,23 +65,7 @@ HTML과 CSS만을 사용하여 **1만 시간의 법칙(The 10,000-Hour Rule)**�
 
 ### 1. 헤더(Header)
 
-* `<div class="header-logo" role="img" aria-label="1만 시간의 법칙 로고"></div>` div를 활용하여 이미지 2개를 겹치게 조정
-* `aria-label` 과 `role`을 사용해서 해당 div의 역할을 명시
-
-### 2. 메인(Main)
-
-* 각 섹션별로 `h2`를 삽입해 각 섹션의 역할을 표시
-* `sr-only`를 사용해 필요한 경우 `h2`가 웹화면에서 보이지 않도록 설정
-* Flex 레이아웃을 사용하여 화면 크기에 따라 배치 조정
-
-### 3. 모달 창
-* `dialog` 태그를 적절하게 사용
----
-
-## 반응형 대응
-
-* **1200px 이상**: 데스크톱 레이아웃
-* **768px ~ 1200px**: 태블릿 레이아웃
+* `<div class="header-logo" role="img" aria-labe웃
 * **480px 이하**: 모바일 레이아웃
 
   * rem 단위를 활용한 유연한 크기 조절
